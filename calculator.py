@@ -56,9 +56,11 @@ def main():
             evaluator = evaluators.Evaluators()
             result = evaluator.evaluate(expressionTree)
             print '\nResult:',
+	    print '\n \n hiiiii:',
             print result
         except CalcExceptions, x:
             print 'Error!:',
+	    print 'Error Error:',
             print x.message
 
 
